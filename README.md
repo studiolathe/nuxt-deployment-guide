@@ -164,4 +164,11 @@ $ sudo a2enmod proxy_http
 $ sudo service apache2 restart
 ```
 
+We can now go back into the local directory and run our `deploy.sh` script:
+
+```
+$ ./scripts/deploy.sh
+```
+
+
 Now head to http://staging.example.com and your site should be live!
